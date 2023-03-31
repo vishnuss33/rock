@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <h1>Welcome to Rock, Paper, Scissor!</h1>
+
+  <h2>make your choice to play</h2>
+  <!-- <button>GET STARTED</button> -->
+  <div class="grid-container">
+
+    <div class="container userOptions">
+
+      <h2>Make Your Choice</h2>
+
+      <div id="user-choice">
+        <input type="image" class="r option" src="images/user1.png" alt="1">
+        <input type="image" class="p option" src="images/user2.png" alt="2">
+        <input type="image" class="s option" src="images/user3.png" alt="3">
+      </div>
+
+      <img id="sel-img" class="selected-option hidden" src="images/user3.png">
+
+    </div>
+
+    <div class="container opponetOption">
+      <h2>Computer Choice</h2>
+      <img class="computer-choice" src="images/wait.gif">
+    </div>
+
+  </div>
+
+  <h1 id="result" class="resultTxt">Have Fun</h1>
+
+  <button onclick="restartClicked()" class="btn-replay">RESTART</button>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
