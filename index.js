@@ -39,22 +39,22 @@ function winLose(selectedImage, randomNum) {
     document.getElementById("result").style.color = "yellow"
   } else if (selectedImage == 1 && randomNum == 3) {
     document.getElementById("result").innerHTML = "Rock smashes scissors You Win!"
-    document.getElementById("result").style.color = "#03C988"
+    document.getElementById("result").style.color = "#66DE93"
   } else if (selectedImage == 3 && randomNum == 1) {
     document.getElementById("result").innerHTML = "Rock smashes scissors You lose"
-    document.getElementById("result").style.color = "#F55050"
+    document.getElementById("result").style.color = "#ff3800"
   } else if (selectedImage == 1 && randomNum == 2) {
     document.getElementById("result").innerHTML = "Paper covers rock You lose"
-    document.getElementById("result").style.color = "#F55050"
+    document.getElementById("result").style.color = "#ff3800"
   } else if (selectedImage == 2 && randomNum == 1) {
     document.getElementById("result").innerHTML = "Paper covers rock You Win!"
-    document.getElementById("result").style.color = "#03C988"
+    document.getElementById("result").style.color = "#66DE93"
   } else if (selectedImage == 2 && randomNum == 3) {
     document.getElementById("result").innerHTML = "Scissors cuts paper You lose"
-    document.getElementById("result").style.color = "#F55050"
+    document.getElementById("result").style.color = "#ff3800"
   } else if (selectedImage == 3 && randomNum == 2) {
     document.getElementById("result").innerHTML = "Scissors cuts paper You Win!"
-    document.getElementById("result").style.color = "#03C988"
+    document.getElementById("result").style.color = "#66DE93"
   }
 
 }
